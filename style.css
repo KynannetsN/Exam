@@ -5,7 +5,7 @@
 
 }
 header h2{
-    font-size: 3vh;
+    font-size: 2vw;
 }
 header a{
     text-decoration: none;
@@ -40,4 +40,43 @@ header{
 }
 .icons{
     margin-right: 4vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.road-img img{
+    width: 50vw;
+    height: 90vh;
+}
+p , h1 , h2 , h3 , span , label{
+    font-family: Garamond;
+}
+.road{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 50px;
+}
+.road h1{
+    font-size: 4vw;
+    font-weight: 500;
+}
+.road p{
+    font-size: 1.5vw;
+    margin: 1.5vw 0;
+}
+.road .small-p{
+    font-size: 1.3vw;
+    color: rgba(34, 34, 34, 0.692);
+}
+.road button{
+    background-color: white;
+    color: silver;
+    border: 1px solid rgb(142, 142, 142);
+    border-radius: 5px;
+    padding: 1vw 2vw;
 }
