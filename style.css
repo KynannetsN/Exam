@@ -1,0 +1,43 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header h2{
+    font-size: 3vh;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    margin: 1vw 2vw;
+    font-family: Garamond;
+    font-weight: 400;
+    font-size: 2vh;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(159, 159, 159);
+}
+.icons img{
+    width: 2vw;
+    margin: 1vw 2vw;
+}
+.icons a{
+    width: 2vw;
+}
+.icons{
+    margin-right: 4vw;
+}
