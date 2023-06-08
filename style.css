@@ -25,11 +25,18 @@ header li{
     align-items: center;
     margin-left: 4vw;
 }
+.menus{
+    display: none;
+}
+.none{
+    display: none;
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(159, 159, 159);
+    height: 9vh;
 }
 .icons img{
     width: 2vw;
@@ -186,7 +193,7 @@ p , h1 , h2 , h3 , h4 , span , label{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-   margin-left: 1vw;
+    margin-left: 2vw;
     align-items: center;
     
 }
@@ -392,6 +399,7 @@ footer div{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 8vw;
     
 }
 footer img{
@@ -403,3 +411,108 @@ footer img{
     margin-bottom: 2vw;
 }
 
+@media screen and (max-width: 850px) {
+    .icons img{
+        display: none;
+    }
+    .road h1{
+        font-size: 5vw;
+    }
+    .road p{
+        font-size: 2vw;
+    }
+    .story h2{
+        font-size: 4vw;
+    }
+    .story p{
+        font-size: 2vw;
+    }
+    .gallery h3{
+        font-size: 4vw;
+    }
+    .card-hover:nth-child(3){
+        display: none;
+    }
+    .card-hover:nth-child(4){
+        display: none;
+    }
+    .text h2{
+        font-size: 2.5vw;
+    }
+    .text p{
+        font-size: 1.5vw;
+    }
+    .text button{
+        width: 10vw;
+    }
+    .text{
+        margin-left: 5vw;
+    }
+    .features h2{
+        font-size: 4vw;
+    }
+    .features-grid{
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+    }
+    .features-grid div:nth-child(1){
+        border-bottom: 2px solid silver;
+        border-right: 2px solid silver;
+    }
+    .features-grid div:nth-child(3){
+        border-bottom: 2px solid silver;
+        border-right: 2px solid silver;
+    }
+    .features-grid div:nth-child(5){
+        border-bottom: 2px solid silver;
+        border-right: 2px solid silver;
+    }
+    .features-grid div:nth-child(2){
+        border-right: 0;
+        border-bottom: 2px solid silver;
+    }
+    .features-grid div:nth-child(4){
+        border-right: 0;
+        border-bottom: 2px solid silver;
+    }
+    .features-grid div:nth-child(6){
+        border-right: 0;
+        border-bottom: 2px solid silver;
+    }
+    .write-to-us h2{
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    .write-to-us p{
+        font-size: 2vw;
+    }
+    .third select{
+        font-size: 2vw;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+    .menu{
+        display: none;
+    }
+    .none{
+        display: block;
+        font-size: 4vw;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menus{
+        display: block;
+        
+    }
+    .menus img{
+        width: 5vw;
+        cursor: pointer;
+    }
+    
+
+}
