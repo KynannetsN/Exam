@@ -48,7 +48,7 @@ header{
     justify-content: space-between;
     border-bottom: 1px solid rgb(159, 159, 159);
     box-sizing: border-box;
-    height: 40vw;
+    height: 80vh;
 }
 .card-one{
     display: flex;
@@ -58,9 +58,11 @@ header{
     box-sizing: border-box;
     height: 50vh;
 }
+
+
 .road-img img{
     width: 50vw;
-    height: 40vw;
+    height: 80vh;
     
 }
 p , h1 , h2 , h3 , span , label{
@@ -126,11 +128,11 @@ p , h1 , h2 , h3 , span , label{
 }
 .card-img img{
     width: 33vw;
-    height: 60vh;
+    height: 50vh;
     
 }
 
-.title {
+/* .title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -146,4 +148,4 @@ p , h1 , h2 , h3 , span , label{
 }
 .title .small-p{
     font-size: 0.9vw;
-}
+} */
