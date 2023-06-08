@@ -50,6 +50,14 @@ header{
     box-sizing: border-box;
     height: 40vw;
 }
+.card-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(159, 159, 159);
+    box-sizing: border-box;
+    height: 50vh;
+}
 .road-img img{
     width: 50vw;
     height: 40vw;
@@ -84,10 +92,41 @@ p , h1 , h2 , h3 , span , label{
     border: 1px solid rgb(142, 142, 142);
     border-radius: 5px;
     padding: 1vw 2vw;
+    cursor: pointer;
+}
+.story{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 30px;
+    box-sizing: content-box;
+
+}
+.story h1{
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.story p{
+    font-size: 1.2vw;
+    margin: 1vw 0;
+}
+.story .small-p{
+    font-size: 1vw;
+    color: rgba(34, 34, 34, 0.692);
+}
+.story button{
+    background-color: white;
+    color: silver;
+    border: 1px solid rgb(142, 142, 142);
+    border-radius: 5px;
+    padding: 1vw 2vw;
+    cursor: pointer;
 }
 .card-img img{
     width: 33vw;
-    height: 70vh;
+    height: 60vh;
     
 }
 
