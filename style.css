@@ -65,7 +65,7 @@ header{
     height: 80vh;
     
 }
-p , h1 , h2 , h3 , span , label{
+p , h1 , h2 , h3 , h4 , span , label{
     font-family: Garamond;
 }
 .road{
@@ -153,6 +153,7 @@ p , h1 , h2 , h3 , span , label{
 .gallery{
     text-align: center;
     padding: 2vw;
+    margin-bottom: 3vw;
     
 }
 
@@ -202,7 +203,7 @@ p , h1 , h2 , h3 , span , label{
 .text button{
     background-color: rgba(255, 255, 255, 0);
     border: 2px solid white;
-    font-weight: 700;
+    font-weight: 500;
     margin: 1vw;
     padding: 1vw;
     font-size: 1vw;
