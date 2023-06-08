@@ -80,7 +80,7 @@ p , h1 , h2 , h3 , h4 , span , label{
     flex-direction: column; 
     justify-content: center;
     align-items: flex-start;
-    margin: 0 50px;
+    margin: 0 3vw;
     box-sizing: content-box;
 }
 .road h1{
@@ -139,23 +139,7 @@ p , h1 , h2 , h3 , h4 , span , label{
     
 }
 
-/* .title {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(159, 159, 159);
-}
-.title h2{
-    font-size: 2.5vw;
-    font-weight: 500;
 
-}
-.title p{
-    font-size: 1.1vw;
-}
-.title .small-p{
-    font-size: 0.9vw;
-} */
 
 .gallery{
     text-align: center;
@@ -504,6 +488,10 @@ footer img{
     header{
         display: flex;
         justify-content: space-around;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        
     }
     .menus{
         display: block;
@@ -512,6 +500,150 @@ footer img{
     .menus img{
         width: 5vw;
         cursor: pointer;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 160px;
+        border: 0;
+        height: 100vh;
+    }
+    .card img{
+        width: 100vw;
+       
+    }
+    .road{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 10vw;
+        margin-bottom: 40px;
+    }
+    .road h1{
+        font-size: 8vw;
+    }
+    .road p{
+        font-size: 3vw;
+    }
+    .road .small-p{
+        font-size: 2vw;
+    }
+    .road button{
+        width: 18vw;
+        height: 5vh;
+    }
+    .card-one{
+        display: flex;
+        flex-direction: column;
+        border: 0;
+        height: 100vh;
+        margin-bottom: 350px;
+    }
+    .card-one img{
+        width: 100vw;
+        height: 70vh;
+    }
+    .card-one h2{
+        font-size: 8vw;
+        margin: 4vw 0;
+    }
+    .card-one p{
+        font-size: 3vw;
+    }
+    .card-one .small-p{
+        font-size: 2vw;
+    }
+    .card-one button{
+        width: 18vw;
+        height: 5vh;
+    }
+    .card-two{
+        display: flex;
+        flex-direction: column-reverse;
+        border-bottom: 1px solid silver;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+    .card-hover:nth-child(2){
+        display: none;
+    }
+    .card-hover:nth-child(1){
+        margin-left:6vw;
+    }
+    .gallery-img{
+        margin: 0;
+        text-align: center;
+    }
+    .gallery-img img{
+        width: 600px;
+    }
+    .text button{
+        width: 20vw;
+        height: 5vh;
+        font-size: 2vw;
+    }
+    .gallery-img h2{
+        font-size: 4vw;
+    }
+    .gallery-img p{
+        font-size: 3vw;
+    }
+    .gallery h3{
+        font-size: 5vw;
+    }
+    .text{
+        margin-left: 80px;
+    }
+    .features-grid{
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+    }
+    .features-grid div:nth-child(1){
+        border-bottom: 2px solid silver;
+        border-right: 0px solid silver;
+    }
+    .features-grid div:nth-child(3){
+        border-bottom: 2px solid silver;
+        border-right: 0px solid silver;
+    }
+    .features-grid div:nth-child(5){
+        border-bottom: 2px solid silver;
+        border-right: 0px solid silver;
+    }
+    .features-grid div:nth-child(2){
+        border-right: 0;
+        border-bottom: 2px solid silver;
+    }
+    .features-grid div:nth-child(4){
+        border-right: 0;
+        border-bottom: 2px solid silver;
+    }
+    .features-grid div:nth-child(6){
+        border-right: 0;
+        border-bottom: 2px solid silver;
+    }
+    .features-grid img{
+        width: 7vw;
+    }
+    .features-grid h4{
+        font-size: 4vw;
+    }
+    .features-grid p{
+        font-size: 2vw;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .first input{
+        width: 80vw;
+    }
+    .write-to-us h2{
+        font-size: 4vw;
+
     }
     
 
