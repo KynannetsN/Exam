@@ -18,7 +18,7 @@ header li{
     margin: 1vw 2vw;
     font-family: Garamond;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 1.3vw;
 }
 .menu{
     display: flex;
@@ -47,6 +47,10 @@ header{
 }
 .icons{
     margin-right: 4vw;
+}
+.icons img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
 }
 
 .card{
@@ -391,6 +395,12 @@ footer div{
 footer img{
     width: 2vw;
 }
+footer div:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    background-color: rgb(127, 219, 255);
+
+}
 
 .IN{
     text-align: center;
@@ -398,6 +408,10 @@ footer img{
 }
 
 @media screen and (max-width: 850px) {
+    header li{
+        font-size: 2VW;
+    }
+
     .icons img{
         display: none;
     }
